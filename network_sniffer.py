@@ -1,9 +1,13 @@
+#Building a Python program to capture network traffic packets.
+#libraries  
 from scapy.all import sniff, IP, TCP, UDP, ICMP, Raw
 from datetime import datetime
 
+#Analyzing captured packets to understand their structure and content.
 def process_packet(packet):
     print(f"\n=== Packet Captured @ {datetime.now().strftime('%H:%M:%S')} ===")
     
+    #Displaying useful information such as source/destination IPs, protocols and payloads.
     if IP in packet:
         ip_layer = packet[IP]
         print(f"Source IP      : {ip_layer.src}")

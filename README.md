@@ -14,14 +14,14 @@ Educate about social engineering tactics used by attackers.
 Provide best practices and tips to avoid falling victim.
 Include real-world examples and interactive quizzes for better engagement.
 
-#✅ TASK 1: Secure Coding Review
+# TASK 1: Secure Coding Review
 Select a programming language and application to audit.
 Perform a code review to identify security vulnerabilities.
 Use tools like static analyzers or manual inspection methods.
 Provide recommendations and best practices for secure coding.
 Document findings and suggest remediation steps for safer code.
 
-#✅ TASK 2: Network Intrusion Detection System
+# TASK 2: Network Intrusion Detection System
 Set up a network-based intrusion detection system using tools like Snort or Suricata.
 2. Configure rules and alerts to detect suspicious or malicious activity.
 3. Monitor network traffic continuously for potential threats.
